@@ -27,14 +27,12 @@ def start(update: Update, context: CallbackContext):
     update.message.reply_text('Welcome to the Rental Bot!')
 
 def add_command(update: Update, context: CallbackContext):
-    # Extract information from the message and use add_rented_number function
-    # Example: /add number username permanent_link user_id renewal_date
+    # Placeholder for future implementation
+    pass
 
 def check_command(update: Update, context: CallbackContext):
-    # Check rental information for the user
-    user_id = update.message.from_user.id
-    response = handle_user_interaction(str(user_id))
-    update.message.reply_text(response)
+    # Placeholder for future implementation
+    pass
 
 # Main function to start the bot
 def main():
